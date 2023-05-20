@@ -37,14 +37,14 @@ const InterviewDetailsForm: React.FC<{
       interviewLanguage: Yup.string().required("Interview Language is required"),
     }),
     onSubmit: (values) => {
-      console.log({ values });
+      //console.log({ values });
       alert("Form successfully submitted");
     },
   });
 
   const handleInputChange = (name: string, value: string) => {
       handleChange({ target: { name, value } });
-      console.log(name, value)
+      //console.log(name, value)
   
       setState((prevData) => ({
         ...prevData,

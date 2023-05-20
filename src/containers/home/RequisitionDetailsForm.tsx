@@ -47,7 +47,7 @@ const RequisitionDetailsForm: React.FC<{
 
   const handleInputChange = (name:string, value:string) => {
     handleChange({ target: { name, value } });
-    console.log(name, value)
+    //console.log(name, value)
 
     setState((prevData) => ({
       ...prevData,

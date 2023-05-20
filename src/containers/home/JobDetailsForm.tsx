@@ -25,14 +25,14 @@ const JobDetailsForm: React.FC<{
         jobLocation: Yup.string().required("Job Location is required"),
       }),
       onSubmit: (values) => {
-        console.log({ values });
+        //console.log({ values });
         handleTab(2);
       },
     });
 
     const handleInputChange = (name:string, value:string) => {
       handleChange({ target: { name, value } });
-      console.log(name, value)
+      //console.log(name, value)
   
       setState((prevData) => ({
         ...prevData,

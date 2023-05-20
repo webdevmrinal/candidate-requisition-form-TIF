@@ -52,7 +52,7 @@ const PreviewCard: React.FC<{
   interviewSettings?: IInterViewSettings;
 }> = ({ requisitionDetails, jobDetails, interviewSettings }) => {
   const { state } = useData();
-  console.log(state);
+  //console.log(state);
   return (
     <Box p="1rem">
       <Box borderRadius="10px" bgColor="gray.100" height="fit-content">
