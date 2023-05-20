@@ -30,7 +30,7 @@ const JobDetailsForm: React.FC<{
       },
     });
 
-    const handleInputChange = (name, value) => {
+    const handleInputChange = (name:string, value:string) => {
       handleChange({ target: { name, value } });
       console.log(name, value)
   
