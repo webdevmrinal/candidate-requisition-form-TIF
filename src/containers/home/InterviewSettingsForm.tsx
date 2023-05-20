@@ -81,7 +81,7 @@ const InterviewDetailsForm: React.FC<{
           touched={touched?.interviewDuration}
         />
         <FormSelect
-          label="Job Location"
+          label="Interview Language"
           name="interviewLanguage"
           placeholder="Select interview language"
           options={interviewLanguageOptions}
