@@ -36,7 +36,8 @@ const RequisitionDetailsForm: React.FC<{
         .typeError("Enter a valid number")
         .required("Number of openings is required")
         .positive("Enter a valid number")
-        .min(1, "Enter a valid number"),
+        .min(1, "Enter a valid number")
+        .lessThan(Infinity, "Enter a valid number"),
       urgency: Yup.string().required("Urgency is required"),
       gender: Yup.string().required("Gender is required"),
     }),
